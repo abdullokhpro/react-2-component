@@ -1,0 +1,43 @@
+.hero {
+  width: 100vw;
+  height: 70%;
+  padding-bottom: 100px;
+  background: url(../../assets/hero/hero-bg1.webp) no-repeat fixed;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20%;
+    color: #fff;
+  }
+
+  &__price {
+    font-size: 22px;
+  }
+
+  &__title {
+    font-size: 42px;
+    max-width: 500px;
+  }
+
+  &__text {
+    font-size: 18px;
+  }
+
+  &__btn {
+    width: 120px;
+    padding: 15px 26px;
+    background: #fff;
+    color: #000;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: 0.2s;
+
+    &:hover {
+      border: 1px solid #fff;
+      background: none;
+      color: #fff;
+    }
+  }
+}
